@@ -40,7 +40,7 @@ h1 {
 }
 
 .viewtoggle {
-    width: 33rem;
+    width: 29rem;
     height: 100vh;
     overflow: hidden;
     box-shadow: var(--clr-boxshadow);
@@ -64,7 +64,7 @@ h1 {
     color: var(--clr-red);
     background: transparent;
     border-color: transparent;
-    margin: 10px 0px 0px 29rem;
+    margin: 10px 0px 0px 26rem;
 }
 
 .toggle-center {
@@ -84,7 +84,7 @@ h1 {
 
 .toggle li a {
     font-size: 1.5rem;
-    margin-left: 25px;
+    margin-left: 20px;
     text-decoration: none;
     letter-spacing: 0.2rem;
     font-family: 'Arvo', serif;
@@ -104,7 +104,7 @@ h1 {
 .social-icons {
     display: flex;
     list-style-type: none;
-    margin: 10rem 0px 0px 8rem;
+    margin: 10rem 0px 0px 5.3rem;
 }
 
 .social-icons a {
@@ -158,7 +158,7 @@ h1 {
     transform: var(--rotate-90);
 }
 
-@media screen and (max-width: 660px) {
+@media screen and (max-width: 548px) {
 
     /*Added to class once clicked */
     .hide-toggle {
