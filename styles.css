@@ -40,7 +40,7 @@ h1 {
 }
 
 .viewtoggle {
-    width: 35rem;
+    width: 33rem;
     height: 100vh;
     overflow: hidden;
     box-shadow: var(--clr-boxshadow);
@@ -64,7 +64,7 @@ h1 {
     color: var(--clr-red);
     background: transparent;
     border-color: transparent;
-    margin: 10px 0px 0px 31rem;
+    margin: 10px 0px 0px 29rem;
 }
 
 .toggle-center {
@@ -104,7 +104,7 @@ h1 {
 .social-icons {
     display: flex;
     list-style-type: none;
-    margin: 20rem 0px 0px 8rem;
+    margin: 10rem 0px 0px 8rem;
 }
 
 .social-icons a {
@@ -165,5 +165,13 @@ h1 {
         display: none
     }
     /*Added to class once clicked */
+
+    .logo {
+        width: 7rem;
+    }
+
+    .nav-toggle {
+        font-size: 35px;
+    }
 
 }
