@@ -1,14 +1,18 @@
 :root {
+    /* Colors Theme*/
     --clr-red: rgb(150, 28, 28);
     --clr-lightblue: rgb(54, 164, 179);
     --clr-darkhover: rgb(50, 122, 122);
     --clr-background: rgb(218, 242, 245);
     --clr-boxshadow: 0 5px 15px rgba(0, 0, 0, 0.1);
-
+    /* Colors Theme*/
+    
+    /* Transition & Animation */
     --rotate-90: rotate(90deg);
     --transition: all 0.3s linear;
     --animation: bounce 2s ease-in-out infinite;
 }
+    /* Transition & Animation */
 
 * {
     margin: 0;
