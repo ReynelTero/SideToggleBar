@@ -16,9 +16,32 @@
     box-sizing: border-box;
 }
 
+/* Similar styles */
+body,
+.toggle-container {
+    background-color: var(--clr-background);
+}
+
+.toggle-container,
+.viewtoggle {
+    box-shadow: var(--clr-boxshadow);
+}
+
+.toggle li a,
+.social-icons a,
+.nav-toggle {
+    color: var(--clr-lightblue);
+}
+
+.toggle li a:hover,
+.social-icons a :hover,
+.contents {
+    color: var(--clr-darkhover);
+}
+/* Similar styles */
+
 body {
     height: 100vh;
-    background-color: var(--clr-background);
 }
 
 h1 {
@@ -35,15 +58,12 @@ h1 {
     height: 100vh;
     overflow: hidden;
     transition: all 0.4s linear;
-    box-shadow: var(--clr-boxshadow);
-    background-color: var(--clr-background);
 }
 
 .viewtoggle {
     width: 26rem;
     height: 100vh;
     overflow: hidden;
-    box-shadow: var(--clr-boxshadow);
 }
 
 .logo-container {
@@ -89,16 +109,6 @@ h1 {
     letter-spacing: 0.2rem;
     font-family: 'Arvo', serif;
     text-transform: capitalize;
-    color: var(--clr-lightblue);
-}
-
-.toggle li a:hover {
-    color: var(--clr-darkhover);
-}
-
-.social-icons a 
-:hover {
-    color: var(--clr-darkhover);
 }
 
 .social-icons {
@@ -109,7 +119,6 @@ h1 {
 
 .social-icons a {
     font-size: 1.4rem;
-    color: var(--clr-lightblue);
 }
 
 .social-icons li {
@@ -126,7 +135,6 @@ h1 {
     font-size: 50px;
     align-items: center;
     justify-content: center;
-    color: var(--clr-darkhover);
     font-family: 'DM Sans', sans-serif;
 }
 /*CONTENTS*/
@@ -137,7 +145,6 @@ h1 {
     cursor: pointer;
     background: transparent;
     border-color: transparent;
-    color: var(--clr-lightblue);
     margin: 2rem 50px 0px -5rem;
     animation: var(--animation);
 }
